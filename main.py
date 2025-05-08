@@ -1,6 +1,6 @@
 import requests, random, time, re, asyncio
 from faker import Faker
-from telegram.update import Update
+from telegram import Update
 from telegram.ext import (
     ApplicationBuilder, CommandHandler, MessageHandler,
     ConversationHandler, ContextTypes, filters
