@@ -69,7 +69,7 @@ def send_data(data, proxy=None):
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("👋 Welcome! Please enter the @username or channel/group you want to report (without @): \n:")
+    await update.message.reply_text("👋 Welcome! Please enter the @username or channel/group you want to report (without @):")
     return USERNAME
 
 
